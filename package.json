@@ -1,0 +1,17 @@
+{
+  "name": "valie-problems",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "all": "node watchmen.js; node pairs.js; node knight.js",
+    "watchmen": "node watchmen.js",
+    "pairs": "node pairs.js",
+    "knight": "node knight.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
