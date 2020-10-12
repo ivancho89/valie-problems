@@ -59,7 +59,7 @@ const calculateMinSteps= (startX, startY, endX, endY, visited=[])=>{
 
 const kinghtSteps = (startCordinates = [0,0], endCordinates=[0,0])=>{
 	var res = calculateMinSteps(startCordinates[0], startCordinates[1], endCordinates[0], endCordinates[1])
-	console.log("\r\n KNIGHT MOVES :: Min # Steps :: ", res)
+	console.log(`\r\n KNIGHT MOVES :: Starting from ${startCordinates} to ${endCordinates} the Min # Steps are :: `, res)
 
 }
 
